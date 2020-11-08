@@ -8,15 +8,39 @@ opacity: 1;
 }
 
 .sidebar-header{
-margin-top: 100px;
+margin-top: -20px;
 text-align: left;
 line-height: 1.6;
 color: #FFFFFF;
 opacity: 1;
+background-color: #008F71;
+border-radius: 0px 0px 0px 97px;
+height: 200px;
+width:310px;
+
 
 }
 
-.sidebar-header h3{
+/*.sidebar-header .welcome{
+background-color: #008F71;
+position: relative;
+top:-100px;
+right: -1px;
+height: 250px;
+width:310px;
+border-radius: 0px 0px 0px 97px;
+}
+*/
+
+.sidebar-header .welcome{
+	position: relative;
+	top:60px;
+	
+}
+
+
+.sidebar-header .welcome h3{
+
 	font-weight: 200;
 	font-family: Montserrat;
 	line-height: 0.1;
@@ -33,6 +57,7 @@ opacity: 1;
 
 .sidebar-menu{
 	margin-top: 70px;
+	
 
 }
 
@@ -40,7 +65,17 @@ opacity: 1;
 	margin-left: 40px;
 	margin-bottom: 30px;
 	color: #FFFFFF;
-	font-weight: 200;
+	font-weight: bold;
+	font-size: 20px;
+
+
+}
+
+.sidebar-menu h4 img{
+	margin-right: 18px;
+	width: 27px;
+	height: 27px;
+	opacity: 1;
 
 }
 
